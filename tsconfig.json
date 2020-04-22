@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "target": "es2020",
+    "allowJs": false,
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@test/*": [
+        "test/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/", "test"
+  ]
+}
